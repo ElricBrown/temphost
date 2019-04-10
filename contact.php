@@ -90,6 +90,7 @@ $title = "Genesis | Contact";
 
   <!-- Footer -->
 <?php include 'footer.php'; ?>
+<?php include 'form.php';?>
 </body>
 
 </html>

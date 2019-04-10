@@ -29,17 +29,18 @@ $title = "Genesis | Home";
       </div>
     </div> -->
     
-  </header>
+   </header>
+
 
   <!-- About Section -->
   <section class="page-section bg-primary" id="about">
     <div class="container">
-    <h2 class="text-center mt-0">About Us</h2>
-      <hr class="divider my-4 white">
+    <h2 class="text-center mt-0 text-white">About Us</h2>
+      <hr class="divider my-4 bg-success">
 
     <div class="row">
         <div class="col-lg-8">
-          <p>
+          <p class="text-white">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus feugiat in ante metus dictum at tempor. Nullam non nisi est sit amet facilisis magna. In fermentum et sollicitudin ac orci phasellus.
             </br> </br> 
             <a class="btn btn-light btn-xl" href="our-story.php">Read More</a>
