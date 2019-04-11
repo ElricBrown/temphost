@@ -102,7 +102,8 @@ $title = "Genesis | Home";
       <div class="row justify-content-center mt-3">
           <!-- <a class="btn btn-primary btn-xl" href="#">Read More</a>
           <input type="submit" class="btn btn-primary btn-send" value="Send message"> -->
-          <button type="submit" class="btn btn-primary btn-send btn-xl" value="Read More">Read More</button>  
+          <!-- <button type="submit" class="btn btn-primary btn-send btn-xl" href="services.php" value="Read More">Read More</button> -->
+          <a class="btn btn-primary btn-send btn-xl" href="services.php">Read More</a>
         </div>
       
     </div>

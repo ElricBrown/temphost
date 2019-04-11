@@ -84,6 +84,34 @@ $title = "Genesis | Contact";
     </div>
 
 </form>
+
+<hr class="divider my-4 mt-4">
+<h2 class="text-center mt-0">Or Contact one of our Representitives</h2>
+      <hr class="divider my-4">
+
+<div class="row">
+        <div class="col-lg-8">
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus feugiat in ante metus dictum at tempor. Nullam non nisi est sit amet facilisis magna. In fermentum et sollicitudin ac orci phasellus.
+            </br> </br> 
+            <!-- <a class="btn btn-light btn-xl" href="our-story.php">Read More</a> -->
+        </p>
+      </div>
+      <div class="col-lg-4 ">
+      <i class="fas fa-8x fa-laptop-code text-primary mb-4"></i>
+      </div>
+
+      <div class="row mt-3">
+      <div class="col-lg-4 ">
+      <i class="fas fa-8x fa-laptop-code text-primary mb-4"></i>
+         </div>
+        <div class="col-lg-8">
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus feugiat in ante metus dictum at tempor. Nullam non nisi est sit amet facilisis magna. In fermentum et sollicitudin ac orci phasellus.
+            </br> </br> 
+            <!-- <a class="btn btn-light btn-xl" href="our-story.php">Read More</a> -->
+        </p>
+      </div>
 </div>
   </section>
 
