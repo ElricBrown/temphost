@@ -9,7 +9,7 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="our-story.php">Our Story</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link js-scroll-trigger" href="contact.php">Contact</a>
           </li>
         </ul>

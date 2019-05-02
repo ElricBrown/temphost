@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <?php
 $title = "Genesis | Home";
+$bgMasterhead = "https://media.giphy.com/media/mjORAqVKYtW7e/giphy.gif";
 ?> 
 <html lang="en">
 
@@ -16,18 +17,20 @@ $title = "Genesis | Home";
   <!-- Masthead -->
   <header class="masthead">
      <!-- carousel -->
-    <!-- <div class="container h-100">
+    <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Your Favorite Source of Free Bootstrap Themes</h1>
+          <img src="img/genesis-01.png" alt="" srcset="" width="50%" height="50%">
+          <h3 class="primary">WE’RE NOT INTERESTED IN BEING THE BIGGEST, WE JUST WANT TO BE THE BEST</h3>
+          
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
+          <p class="text-white-75 font-weight-light mb-5"></p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
         </div>
       </div>
-    </div> -->
+    </div>
     
    </header>
 
@@ -41,7 +44,7 @@ $title = "Genesis | Home";
     <div class="row">
         <div class="col-lg-8">
           <p class="text-white">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus feugiat in ante metus dictum at tempor. Nullam non nisi est sit amet facilisis magna. In fermentum et sollicitudin ac orci phasellus.
+          Passive fire protection pertains to the compartmentalization of an overall building through the use of Approved Fire Rated Materials acting together to compose a Fire Rated System. The overall building structure is then broken down into smaller fire compartments, consisting of one or more rooms and/or floors, known as fire zones....
             </br> </br> 
             <a class="btn btn-light btn-xl" href="our-story.php">Read More</a>
         </p>
@@ -50,64 +53,90 @@ $title = "Genesis | Home";
          
       </div>
       </div>
-      <!-- <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">We've got what you need!</h2>
-          <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
-        </div>
-      </div> -->
-      <div class="">
-
-      </div>
     </div>
   </section>
-
-  <!-- Services Section -->
-  <section class="page-section" id="services">
-    <div class="container">
-      <h2 class="text-center mt-0">Our Services</h2>
-      <hr class="divider my-4">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
+  <section class="page-section" id="slider">
+    <div class="container text-center">
+    <h2 class="mt-0 text-white">What we offer</h2>
+          <hr class="divider my-4">
+    <div class="customer-logos">
+    <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Sturdy Themes</h3>
-            <p class="text-muted mb-0"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h3 class="h4 mb-2">Intumescent Coating (Structural Steel and Timber)</h3>
+            
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Up to Date</h3>
-            <p class="text-muted mb-0"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h3 class="h4 mb-2">Heavy and light industrial coatings (Structural Steel and Timber)</h3>
+            
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Ready to Publish</h3>
-            <p class="text-muted mb-0"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h3 class="h4 mb-2">Anti-Corrosive coatings</h3>
+            
+          </div>
+        </div>
+      
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Fire Doors, Frames and Ironmongery</h3>
+            
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Made with Love</h3>
-            <p class="text-muted mb-0"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h3 class="h4 mb-2">Fire Signage</h3>
+            
           </div>
         </div>
-      </div>
-      <div class="row justify-content-center mt-3">
-          <!-- <a class="btn btn-primary btn-xl" href="#">Read More</a>
-          <input type="submit" class="btn btn-primary btn-send" value="Send message"> -->
-          <!-- <button type="submit" class="btn btn-primary btn-send btn-xl" href="services.php" value="Read More">Read More</button> -->
-          <a class="btn btn-primary btn-send btn-xl" href="services.php">Read More</a>
+
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Fire Extinguishers</h3>
+            
+          </div>
         </div>
-      
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Passive Fire Stopping Systems </h3>
+            
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Calcium Silicate Fire Rated Partitions</h3>
+            
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Drywall Partitions and Ceilings</h3>
+            
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Mechanical and Static Fire Curtain Applications</h3>
+            
+          </div>
+        </div>
+    </div>
     </div>
   </section>
+  <!-- Services Section -->
+  
 
   <!-- Portfolio Section -->
   <section id="portfolio">
@@ -195,13 +224,23 @@ $title = "Genesis | Home";
     </div>
   </section>
 
-  <!-- Call to Action Section -->
-  <!-- <section class="page-section bg-dark text-white">
+  <!-- customers Section -->
+  <section class="page-section" id="slider">
     <div class="container text-center">
-      <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
+    <h2 class="mt-0 text-white">Some of our clients</h2>
+          <hr class="divider my-4">
+    <div class="customer-logos">
+  <div class="slide"><img src="https://www.solodev.com/assets/carousel/image1.png"></div>
+  <div class="slide"><img src="https://www.solodev.com/assets/carousel/image2.png"></div>
+  <div class="slide"><img src="https://www.solodev.com/assets/carousel/image3.png"></div>
+  <div class="slide"><img src="https://www.solodev.com/assets/carousel/image4.png"></div>
+  <div class="slide"><img src="https://www.solodev.com/assets/carousel/image5.png"></div>
+  <div class="slide"><img src="https://www.solodev.com/assets/carousel/image6.png"></div>
+  <div class="slide"><img src="https://www.solodev.com/assets/carousel/image7.png"></div>
+  <div class="slide"><img src="https://www.solodev.com/assets/carousel/image8.png"></div>
+</div>
     </div>
-  </section> -->
+  </section>
 
   <!-- Contact Section -->
   <section class="page-section" id="contact">
@@ -226,6 +265,19 @@ $(".nav .nav-link").on("click", function(){
    $(this).addClass("active");
 });
 </script>
+
+<script type="text/javascript">
+  
+$('.multiple-items').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+  </script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="js/carousel.js"></script>
 </body>
 
 </html>

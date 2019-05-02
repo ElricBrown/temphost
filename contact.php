@@ -24,7 +24,10 @@ $title = "Genesis | Contact";
   <div class="container">
   <h2 class="text-center mt-0">Please fill in our contact form</h2>
       <hr class="divider my-4">
-  <form id="contact-form" method="post" action="contact.php" role="form">
+
+
+<!-- Start Contact Form -->
+<form id="contact-form" method="post" action="form.php" role="form">
 
     <div class="messages"></div>
 
@@ -57,7 +60,7 @@ $title = "Genesis | Contact";
             <div class="col-md-6">
                 <div class="form-group">
                     <label for="form_need">Company *</label>
-                    <input id="form_company" type="text" name="email" class="form-control" placeholder="Please enter your company name *" required="required" data-error="Valid company name is required.">
+                    <input id="form_company" type="text" name="company" class="form-control" placeholder="Please enter your company name *" required="required" data-error="Valid company name is required.">
                     <div class="help-block with-errors"></div>
                 </div>
             </div>
@@ -84,8 +87,14 @@ $title = "Genesis | Contact";
     </div>
 
 </form>
+<!-- End Contact Form -->
 
-<hr class="divider my-4 mt-4">
+
+  </section>
+
+  <!-- <section class="page-section">
+  <div class="container">
+  <hr class="divider my-4 mt-4">
 <h2 class="text-center mt-0">Or Contact one of our Representitives</h2>
       <hr class="divider my-4">
 
@@ -94,7 +103,7 @@ $title = "Genesis | Contact";
           <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus feugiat in ante metus dictum at tempor. Nullam non nisi est sit amet facilisis magna. In fermentum et sollicitudin ac orci phasellus.
             </br> </br> 
-            <!-- <a class="btn btn-light btn-xl" href="our-story.php">Read More</a> -->
+            
         </p>
       </div>
       <div class="col-lg-4 ">
@@ -109,16 +118,17 @@ $title = "Genesis | Contact";
           <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus feugiat in ante metus dictum at tempor. Nullam non nisi est sit amet facilisis magna. In fermentum et sollicitudin ac orci phasellus.
             </br> </br> 
-            <!-- <a class="btn btn-light btn-xl" href="our-story.php">Read More</a> -->
+            
         </p>
       </div>
 </div>
-  </section>
+  </div>
+  </section> -->
 
-
+<script src="form.js"></script>
   <!-- Footer -->
 <?php include 'footer.php'; ?>
-<?php include 'form.php';?>
+
 </body>
 
 </html>
