@@ -17,4 +17,4 @@
   <script src="js/creative.min.js"></script>
 
   <!-- nav js -->
-  <script src="js/nav.js"></script>
+  <script src="nav.js"></script>

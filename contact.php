@@ -15,9 +15,25 @@ $title = "Genesis | Contact";
   <?php include 'navbar.php';?>
 
   <!-- Masthead -->
-  <header class="masthead">
-
-  </header>
+  <div class="hero-image-cont">
+  <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <!-- <img src="img/genesis-01.png" alt="" srcset="" width="50%" height="50%"> -->
+          <!-- <div class="typewriter"> -->
+            <h3 class="text-white">CONTACT US</h3>
+          <!-- </div> -->
+          
+          
+          <hr class="divider my-4">
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light mb-5"></p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+        </div>
+      </div>
+    </div>
+</div> 
 
   <!-- About Section -->
   <section class="page-section" id="about">
@@ -27,7 +43,7 @@ $title = "Genesis | Contact";
 
 
 <!-- Start Contact Form -->
-<form id="contact-form" method="post" action="form.php" role="form">
+<form id="contact-form" action="https://formspree.io/ryno.genesisbc@gmail.com" method="POST" />
 
     <div class="messages"></div>
 
@@ -53,7 +69,7 @@ $title = "Genesis | Contact";
             <div class="col-md-6">
                 <div class="form-group">
                     <label for="form_email">Email *</label>
-                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <input id="form_email" type="email" name="_replyto" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
                     <div class="help-block with-errors"></div>
                 </div>
             </div>
@@ -65,6 +81,16 @@ $title = "Genesis | Contact";
                 </div>
             </div>
         </div>
+        <!-- <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_number">Contact number *</label>
+                    <input id="form_number" type="number" name="_replyto" class="form-control" placeholder="Please enter your number *" required="required" data-error="Valid number is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+
+        </div> -->
         <div class="row">
             <div class="col-md-12">
                 <div class="form-group">
@@ -75,7 +101,7 @@ $title = "Genesis | Contact";
             </div>
             <div class="col-md-12">
                 <!-- <input type="submit" class="btn btn-primary btn-send" value="Send message"> -->
-                <button type="submit" class="btn btn-primary btn-send btn-xl" value="Send message">Send message</button>  
+                <button type="submit" class="btn btn-primary btn-send btn-xl" value="Send message" name="Send">Send message</button>  
             </div>
         </div>
         <div class="row">
@@ -92,38 +118,8 @@ $title = "Genesis | Contact";
 
   </section>
 
-  <!-- <section class="page-section">
-  <div class="container">
-  <hr class="divider my-4 mt-4">
-<h2 class="text-center mt-0">Or Contact one of our Representitives</h2>
-      <hr class="divider my-4">
 
-<div class="row">
-        <div class="col-lg-8">
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus feugiat in ante metus dictum at tempor. Nullam non nisi est sit amet facilisis magna. In fermentum et sollicitudin ac orci phasellus.
-            </br> </br> 
-            
-        </p>
-      </div>
-      <div class="col-lg-4 ">
-      <i class="fas fa-8x fa-laptop-code text-primary mb-4"></i>
-      </div>
 
-      <div class="row mt-3">
-      <div class="col-lg-4 ">
-      <i class="fas fa-8x fa-laptop-code text-primary mb-4"></i>
-         </div>
-        <div class="col-lg-8">
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus feugiat in ante metus dictum at tempor. Nullam non nisi est sit amet facilisis magna. In fermentum et sollicitudin ac orci phasellus.
-            </br> </br> 
-            
-        </p>
-      </div>
-</div>
-  </div>
-  </section> -->
 
 <script src="form.js"></script>
   <!-- Footer -->
@@ -132,3 +128,55 @@ $title = "Genesis | Contact";
 </body>
 
 </html>
+
+
+<!-- <section class="">
+<div class="container ">
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img class="contact-persons center" src="img/person.jpeg" alt="Jane">
+      <div class="container">
+        <h2 class="text-center">Jane Doe</h2>
+        <p class="title text-center">CEO &amp; Founder</p>
+        <ul class="contact-li">
+            <li><i class="far fa-envelope-open"></i>: example@example.com</li>
+            <li><i class="fas fa-phone-square"></i>: 012 345 6789</li>
+        </ul>
+       
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img class="contact-persons center" src="img/person.jpeg" alt="Mike">
+      <div class="container">
+      <h2 class="text-center">Jane Doe</h2>
+        <p class="title text-center">CEO &amp; Founder</p>
+        <ul class="contact-li">
+            <li><i class="far fa-envelope-open"></i>: example@example.com</li>
+            <li><i class="fas fa-phone-square"></i>: 012 345 6789</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img class="contact-persons center" src="img/person.jpeg" alt="John">
+      <div class="container">
+      <h2 class="text-center">Jane Doe</h2>
+        <p class="title text-center">CEO &amp; Founder</p>
+        <ul class="contact-li">
+            <li><i class="far fa-envelope-open"></i>: example@example.com</li>
+            <li><i class="fas fa-phone-square"></i>: 012 345 6789</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div> 
+</div>
+</section> -->

@@ -1,0 +1,9 @@
+{
+    // ...
+   
+     "beautify.language": {
+       "html": ["html", "php", "erb"],
+       "css": [],
+       "js": []
+     }
+   }

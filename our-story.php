@@ -15,28 +15,32 @@ $title = "Genesis | Our Story";
   <?php include 'navbar.php';?>
 
   <!-- Masthead -->
-  <header class="masthead">
-     <!-- carousel -->
-    <!-- <div class="container h-100">
+  <div class="hero-image">
+  <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Your Favorite Source of Free Bootstrap Themes</h1>
+          <!-- <img src="img/genesis-01.png" alt="" srcset="" width="50%" height="50%"> -->
+          <div>
+          <h3 class="text-white">OUR STORY</h3>
+          </div>
+         
+          
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
+          <p class="text-white-75 font-weight-light mb-5"></p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
         </div>
       </div>
-    </div> -->
-    
-  </header>
+    </div>
+</div> 
+
 
   <!-- About Section -->
   <section class="page-section" id="about">
-    <div class="container">
-        <div class="row justify-content-center">
-      <h2>About Us</h2>
+    <div class="container justify-content-center">
+        <div class="container">
+      <h2 class="text-center">About Us</h2>
       <hr class="divider my-4">
     </div>
     <div>
@@ -59,6 +63,12 @@ $title = "Genesis | Our Story";
       </ul>
 
       <p>We are a level 1 BBEEE contributor, who believes in ethical and excellent customer service, satisfaction and developing our staff and communities.</p>
+
+      <div class="container">
+      <h2 class="text-center">Our Mission</h2>
+      <hr class="divider my-4">
+    </div>
+    <p>Genesis Fire Protection (Pty) Ltd is a company built on a solid foundation of friendship, professionalism, efficiency, ethics and accountability, and these attributes are what we offer all our clients. We believe that our client’s needs are our priority and as such, we strive to establish business relationships as partners. We strive to “go the extra mile” and believe that <strong>“YOU’RE ONLY AS GOOD AS THE LAST JOB YOU WALK OFF”.</strong></p>
     </div>
   </section>
 
