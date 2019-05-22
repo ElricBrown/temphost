@@ -10,6 +10,13 @@ $title = "Genesis | Our Story";
 </head>
 
 <body id="page-top">
+<div id="loader-wrapper">
+    <div id="loader"></div>
+ 
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+ 
+</div>
 
   <!-- Navigation -->
   <?php include 'navbar.php';?>
@@ -68,13 +75,25 @@ $title = "Genesis | Our Story";
       <h2 class="text-center">Our Mission</h2>
       <hr class="divider my-4">
     </div>
-    <p>Genesis Fire Protection (Pty) Ltd is a company built on a solid foundation of friendship, professionalism, efficiency, ethics and accountability, and these attributes are what we offer all our clients. We believe that our client’s needs are our priority and as such, we strive to establish business relationships as partners. We strive to “go the extra mile” and believe that <strong>“YOU’RE ONLY AS GOOD AS THE LAST JOB YOU WALK OFF”.</strong></p>
+    <p class="">Genesis Fire Protection (Pty) Ltd is a company built on a solid foundation of friendship, professionalism, efficiency, ethics and accountability, and these attributes are what we offer all our clients. We believe that our client’s needs are our priority and as such, we strive to establish business relationships as partners. We strive to “go the extra mile” and believe that <strong>“YOU’RE ONLY AS GOOD AS THE LAST JOB YOU WALK OFF”.</strong></p>
     </div>
   </section>
 
 
+
+
   <!-- Footer -->
 <?php include 'footer.php'; ?>
+<script>
+$(document).ready(function() {
+	
+	setTimeout(function(){
+		$('body').addClass('loaded');
+		$('h1').css('color','#222222');
+	}, 3000);
+	
+});
+</script>
 </body>
 
 </html>

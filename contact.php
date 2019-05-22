@@ -10,9 +10,16 @@ $title = "Genesis | Contact";
 </head>
 
 <body id="page-top">
-
+<div id="loader-wrapper">
+    <div id="loader"></div>
+ 
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+ 
+</div>
   <!-- Navigation -->
   <?php include 'navbar.php';?>
+
 
   <!-- Masthead -->
   <div class="hero-image-cont">
@@ -34,6 +41,7 @@ $title = "Genesis | Contact";
       </div>
     </div>
 </div> 
+
 
   <!-- About Section -->
   <section class="page-section" id="about">
@@ -81,16 +89,6 @@ $title = "Genesis | Contact";
                 </div>
             </div>
         </div>
-        <!-- <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="form_number">Contact number *</label>
-                    <input id="form_number" type="number" name="_replyto" class="form-control" placeholder="Please enter your number *" required="required" data-error="Valid number is required.">
-                    <div class="help-block with-errors"></div>
-                </div>
-            </div>
-
-        </div> -->
         <div class="row">
             <div class="col-md-12">
                 <div class="form-group">
@@ -117,66 +115,23 @@ $title = "Genesis | Contact";
 
 
   </section>
-
-
+  <?php include 'footer.php'; ?>
+<!-- </div> -->
+<script>
+$(document).ready(function() {
+	
+	setTimeout(function(){
+		$('body').addClass('loaded');
+		$('h1').css('color','#222222');
+	}, 3000);
+	
+});
+</script>
 
 
 <script src="form.js"></script>
   <!-- Footer -->
-<?php include 'footer.php'; ?>
 
 </body>
 
 </html>
-
-
-<!-- <section class="">
-<div class="container ">
-
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img class="contact-persons center" src="img/person.jpeg" alt="Jane">
-      <div class="container">
-        <h2 class="text-center">Jane Doe</h2>
-        <p class="title text-center">CEO &amp; Founder</p>
-        <ul class="contact-li">
-            <li><i class="far fa-envelope-open"></i>: example@example.com</li>
-            <li><i class="fas fa-phone-square"></i>: 012 345 6789</li>
-        </ul>
-       
-      
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img class="contact-persons center" src="img/person.jpeg" alt="Mike">
-      <div class="container">
-      <h2 class="text-center">Jane Doe</h2>
-        <p class="title text-center">CEO &amp; Founder</p>
-        <ul class="contact-li">
-            <li><i class="far fa-envelope-open"></i>: example@example.com</li>
-            <li><i class="fas fa-phone-square"></i>: 012 345 6789</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img class="contact-persons center" src="img/person.jpeg" alt="John">
-      <div class="container">
-      <h2 class="text-center">Jane Doe</h2>
-        <p class="title text-center">CEO &amp; Founder</p>
-        <ul class="contact-li">
-            <li><i class="far fa-envelope-open"></i>: example@example.com</li>
-            <li><i class="fas fa-phone-square"></i>: 012 345 6789</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div> 
-</div>
-</section> -->

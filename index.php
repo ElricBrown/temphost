@@ -11,6 +11,16 @@ $bgMasterhead = "https://media.giphy.com/media/mjORAqVKYtW7e/giphy.gif";
 
 <body id="page-top">
 
+<div id="loader-wrapper">
+    <div id="loader"></div>
+ 
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+ 
+</div>
+
+
+    <div class="content">
   <!-- Navigation -->
   <?php include 'navbar.php';?>
 
@@ -74,7 +84,7 @@ $bgMasterhead = "https://media.giphy.com/media/mjORAqVKYtW7e/giphy.gif";
     <h2 class="mt-0 text-white">What we offer</h2>
           <hr class="divider my-4">
     <div class="customer-logos">
-    <div class="col-lg col-md col-sm text-center">
+    <div class="col-lg col-md col-sm text-center slide">
           <div class="mt-5 container container">
             <!--<i class="fas fa-4x fa-fire-extinguisher text-primary mb-4"></i> --> 
             
@@ -82,28 +92,28 @@ $bgMasterhead = "https://media.giphy.com/media/mjORAqVKYtW7e/giphy.gif";
             
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-3 col-md-6 text-center slide">
           <div class="mt-5 container">
            <!-- <i class="fas fa-4x fa-fire-extinguisher text-primary mb-4"></i> -->
             <h3 class="h4 mb-2 text-white">Heavy and light industrial coatings (Structural Steel and Timber)</h3>
             
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-3 col-md-6 text-center slide">
           <div class="mt-5 container">
            <!-- <i class="fas fa-4x fa-fire-extinguisher text-primary mb-4"></i> -->
             <h3 class="h4 mb-2 text-white">Anti-Corrosive coatings</h3>
             
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-3 col-md-6 text-center slide">
           <div class="mt-5 container">
            <!-- <i class="fas fa-4x fa-fire-extinguisher text-primary mb-4"></i> -->
             <h3 class="h4 mb-2 text-white">Fire Doors, Frames and Ironmongery</h3>
             
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-3 col-md-6 text-center slide">
           <div class="mt-5 container">
            <!-- <i class="fas fa-4x fa-fire-extinguisher text-primary mb-4"></i> -->
             <h3 class="h4 mb-2 text-white">Fire Signage</h3>
@@ -111,35 +121,35 @@ $bgMasterhead = "https://media.giphy.com/media/mjORAqVKYtW7e/giphy.gif";
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-3 col-md-6 text-center slide">
           <div class="mt-5 container">
            <!-- <i class="fas fa-4x fa-fire-extinguisher text-primary mb-4"></i> -->
             <h3 class="h4 mb-2 text-white">Fire Extinguishers</h3>
             
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-3 col-md-6 text-center slide">
           <div class="mt-5 container">
            <!-- <i class="fas fa-4x fa-fire-extinguisher text-primary mb-4"></i> -->
             <h3 class="h4 mb-2 text-white">Passive Fire Stopping Systems </h3>
             
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-3 col-md-6 text-center slide">
           <div class="mt-5 container">
            <!-- <i class="fas fa-4x fa-fire-extinguisher text-primary mb-4"></i> -->
             <h3 class="h4 mb-2 text-white">Calcium Silicate Fire Rated Partitions</h3>
             
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-3 col-md-6 text-center slide">
           <div class="mt-5 container">
            <!-- <i class="fas fa-4x fa-fire-extinguisher text-primary mb-4"></i> -->
             <h3 class="h4 mb-2 text-white">Drywall Partitions and Ceilings</h3>
             
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-3 col-md-6 text-center slide">
           <div class="mt-5 container">
            <!-- <i class="fas fa-4x fa-fire-extinguisher text-primary mb-4"></i> -->
             <h3 class="h4 mb-2 text-white">Mechanical and Static Fire Curtain Applications</h3>
@@ -222,14 +232,14 @@ $bgMasterhead = "https://media.giphy.com/media/mjORAqVKYtW7e/giphy.gif";
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+          <a class="portfolio-box" href="img/portfolio/fullsize/job6.jpg">
+            <img class="img-fluid" src="img/portfolio/fullsize/job6.jpg" alt="">
             <div class="portfolio-box-caption p-3">
               <div class="project-category text-white-50">
                 Category
               </div>
               <div class="project-name">
-                The Team
+              Intumescent Coating
               </div>
             </div>
           </a>
@@ -239,7 +249,7 @@ $bgMasterhead = "https://media.giphy.com/media/mjORAqVKYtW7e/giphy.gif";
   </section>
 
   <!-- customers Section -->
-  <section class="page-section" id="slider">
+  <!-- <section class="page-section" id="slider">
     <div class="container text-center">
     <h2 class="mt-0 text-white">Some of our clients</h2>
           <hr class="divider my-4">
@@ -254,7 +264,7 @@ $bgMasterhead = "https://media.giphy.com/media/mjORAqVKYtW7e/giphy.gif";
   <div class="slide"><img src="https://www.solodev.com/assets/carousel/image8.png"></div>
 </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Contact Section -->
   <section class="page-section" id="contact">
@@ -273,26 +283,17 @@ $bgMasterhead = "https://media.giphy.com/media/mjORAqVKYtW7e/giphy.gif";
   </section>
 
 <?php include 'footer.php';?>
+</div>
 <script>
-
-</script>
-
-<script type="text/javascript">
-  
-$('.multiple-items').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3
+$(document).ready(function() {
+	
+	setTimeout(function(){
+		$('body').addClass('loaded');
+		$('h1').css('color','#222222');
+	}, 3000);
+	
 });
-  </script>
-
-<script>
-  var typed = new Typed('#typed', {
-    stringsElement: '#typed-strings'
-  });
 </script>
-
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 <script src="js/carousel.js"></script>
 </body>

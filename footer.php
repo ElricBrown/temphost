@@ -18,3 +18,4 @@
 
   <!-- nav js -->
   <script src="nav.js"></script>
+  <script src="js/active.js"></script>
