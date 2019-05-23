@@ -193,8 +193,8 @@ $bgMasterhead = "https://media.giphy.com/media/mjORAqVKYtW7e/giphy.gif";
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/20170130_182143.jpg">
-            <img class="img-fluid" src="img/portfolio/fullsize/20170130_182143.jpg" alt="">
+          <a class="portfolio-box" href="img/efd.jpg">
+            <img class="img-fluid" src="img/efd.jpg" alt="" height="90%">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
